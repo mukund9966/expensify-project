@@ -1,0 +1,38 @@
+.page-header {
+  margin-bottom: $m-size;
+  padding: $xl-size 10px;
+  .content-container {
+    background-image: linear-gradient(
+      292.9deg,
+      rgba(27, 13, 45, 1) 21.2%,
+      rgba(120, 64, 96, 1) 92.1%
+    );
+    // background-image: linear-gradient(
+    //   87.4deg,
+    //   rgba(255, 241, 165, 1) 1.9%,
+    //   rgba(200, 125, 76, 1) 49.7%,
+    //   rgba(83, 54, 54, 1) 100.5%
+    // );
+
+    // padding: 20px 20px;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+}
+
+.page-header__title {
+  font-size: 1.5rem;
+  letter-spacing: 0.06em;
+  font-weight: 300;
+  padding: 7px;
+
+  margin: 0;
+  span {
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,17 @@
+.show-for-mobile {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 50;
+  font-size: 1.5rem;
+  @media (min-width: $desktop-breakpoint) {
+    display: none;
+  }
+}
+
+.show-for-desktop {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 50;
+  font-size: 1.5rem;
+  @media (max-width: $desktop-breakpoint - 0.01rem) {
+    display: none;
+  }
+}

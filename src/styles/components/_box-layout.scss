@@ -1,0 +1,27 @@
+.box-layout {
+  background: url("/image/image_back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-layout__box {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: fade-out($color: white, $amount: 0.6);
+  border-radius: 20px;
+  // width: 30rem;
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.box-layout__title {
+  margin: 0 0 $m-size 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
